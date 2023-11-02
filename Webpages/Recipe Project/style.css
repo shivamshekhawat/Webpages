@@ -1,0 +1,148 @@
+/* body{
+    background: #E0FFFF;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+   
+   
+    
+}
+section{
+    background: #6CB4EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+#Shiv{
+    width: 100%;
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hii{
+    font-size: 2rem;
+    display: flex;
+    gap: 30px; 
+    
+}
+.shivam{
+    font-size: 2.5rem;
+    color: white;
+
+}
+.footer{
+    background: #6CB4EE;
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;
+}
+.rightbox{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.6s linear 0s ;
+    box-shadow: 1px 2px 5px black;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    color:#6CB4EE ;
+    font-size: 2rem;
+
+}
+.contentbox{
+    width: 70%;
+    margin: auto;
+
+
+    /* margin-top: 30px;
+    margin-right:30px ;
+    margin-left:30px ; */
+    /* border: 1px solid black; */
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 3rem;
+   box-shadow: 0px 0px 60px rgba(157, 31, 31, 0.322);
+ 
+}
+.jamun{
+    height: 400px;
+    width: 300px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.rightbox img{
+    height: 300px;
+    border-radius: 20px;
+    transition: all 0.6s 0s linear;
+
+
+}
+.leftbox{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+#ingbox{
+    font-size: 1.3rem;
+
+
+
+}
+.para{
+    font-size: 1.1rem;
+}
+.rightbox:hover{
+    transform: scale(1.1);
+
+}
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(92, 24, 24, 0.288);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+   opacity: 0;
+   transition: all 0.3s 0s linear;
+}
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+   
+}
+.rightbox:hover .overlay{
+    opacity: 1;
+}
